@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Reproductor media player video",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
   },
   "keywords": [
     "media",
@@ -11,5 +12,8 @@
     "video"
   ],
   "author": "Wilmar Florez <wflorez52@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }

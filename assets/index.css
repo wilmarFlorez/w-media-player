@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,13 +16,21 @@ body {
 header {
   text-align: center;
   padding: 3rem 0;
-  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  background-color: #1844B3;
   color: white;
+  margin-bottom: 1.5em;
 }
 
 header > h1 {
   font-weight: normal;
-  font-style: italic;
+  font-family: 'Righteous', cursive;
+  letter-spacing: .1em;
+  margin-top: .1em;
+  margin-bottom: .1em;
+}
+
+header > h1 span{
+  color: #ffff77;
 }
 
 main {
