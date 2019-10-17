@@ -18,7 +18,7 @@ header {
   padding: 3rem 0;
   background-color: #1844B3;
   color: white;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
 }
 
 header > h1 {
@@ -83,4 +83,19 @@ main {
 }
 .ads__body {
   margin: 0;
+}
+.controls {
+  text-align: center;
+  padding: 10px;
+  background-color: #11141a;
+}
+.controls .control {
+  background-color: #1844B3;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: .2em;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, .4);
 }
