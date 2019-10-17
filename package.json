@@ -1,0 +1,15 @@
+{
+  "name": "w-media-player",
+  "version": "1.0.0",
+  "description": "Reproductor media player video",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "media",
+    "player",
+    "video"
+  ],
+  "author": "Wilmar Florez <wflorez52@gmail.com>",
+  "license": "MIT"
+}
