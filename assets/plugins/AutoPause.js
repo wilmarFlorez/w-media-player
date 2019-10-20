@@ -12,7 +12,6 @@ class AutoPause {
     })
 
     observer.observe(this.player.media)
-    debugger
     document.addEventListener('visibilitychange', this.handleVisibilityChange)
   }
 
